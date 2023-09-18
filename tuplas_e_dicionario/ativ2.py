@@ -1,0 +1,4 @@
+tupla_vazia = ()
+tupla = tupla_vazia + (1,2,3,4,5) 
+ 
+print(tupla)
