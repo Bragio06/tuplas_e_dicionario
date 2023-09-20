@@ -1,4 +1,7 @@
 tupla_palavra = ('laranja','amarelo','azul','abacate') 
-c = tuple(len(palavra)for palavra in tupla_palavra)
+comprimento = ()
 
-print(c)
+for x in tupla_palavra:
+    comprimento += (len(x),)
+
+print(comprimento)    
